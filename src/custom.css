@@ -1,0 +1,105 @@
+/* Global Stat bar  */
+.globalStatContainerBG {
+  padding-top: 10px;
+  z-index: 100;
+  background-color: #293143;
+  position: fixed;
+  width: 100%;
+}
+
+.globalStatContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.globalStat {
+  display: flex;
+  justify-content: space-around;
+}
+
+.globalStat-title {
+  font-size: 14px;
+}
+
+.globalStat-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(88, 180, 255);
+}
+
+/* Nav Bar CSS */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 40px;
+  z-index: 100;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #293143;
+  align-items: center;
+}
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  align-items: center;
+  margin: 0px;
+}
+
+.logo-container {
+  flex: 0.2;
+  background-color: #293143;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 0.5;
+  font-size: 18px;
+  align-items: center;
+}
+
+.select-navbar {
+  width: 180px;
+  background-color: #1d2330 !important;
+  border: 0px;
+  outline: 0px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.navbar-search {
+  color: grey;
+  align-items: center;
+  background-color: #1d2330;
+  border-radius: 8px;
+  border: 0px;
+  outline: 0px;
+}
+.select-news {
+  overflow: hidden;
+  /* padding-bottom: 50px; */
+}
+.logo {
+  margin: 0 0 0 15px;
+}
+
+/* News Card */
+
+.container {
+  margin-top: 5rem;
+  max-width: 90%;
+}
+
+.space-y-4 {
+  padding: 25px;
+}
