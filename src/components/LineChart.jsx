@@ -20,7 +20,6 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
       ).toLocaleDateString()
     );
   }
-  console.log(coinTimeStamp);
   const data = {
     labels: coinTimeStamp,
     datasets: [
@@ -49,9 +48,6 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
       ],
     },
   };
-
-  console.log("🚀 ~ file: LineChart.jsx ~ line 8 ~ LineChart ~ coinHistory");
-  console.log(coinHistory);
   return (
     <>
       <Row className='chart-header'>

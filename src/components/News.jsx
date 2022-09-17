@@ -20,8 +20,7 @@ const News = ({ simplified }) => {
     count,
   });
 
-  console.log(cryptoNews);
-  if (!cryptoNews?.value) return "Loading...";
+  if (!cryptoNews?.value) return "Loading... Please Wait";
   else
     return (
       <>

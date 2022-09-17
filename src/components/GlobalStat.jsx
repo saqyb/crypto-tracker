@@ -7,7 +7,7 @@ import Cryptocurrencies from "./Cryptocurrencies";
 const GlobalStat = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
   const globalStats = data?.data?.stats;
-  if (isFetching) return console.log("DATA NOT FOUND");
+  if (isFetching) return "Loading... Please Wait";
   else
     return (
       <>

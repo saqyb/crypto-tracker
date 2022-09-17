@@ -22,7 +22,6 @@ const openLink = (value) => {
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [newsCategory, setNewsCategory] = useState("Cryptocurrency");
   const { data } = useGetCryptosQuery(100);
 
   return (
@@ -49,8 +48,9 @@ const Navbar = () => {
             className='select-navbar'
             placeholder='Select a Crypto'
             optionFilterProp='children'
-            onChange={(value) => {
-              if (value != "Cryptocurency") navigate(`/crypto/${value}`);
+            onChange={(e) => {
+              if (e.target.value != "Cryptocurency")
+                navigate(`/crypto/${e.target.value}`);
             }}
             filterOption={(input, option) =>
               option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0

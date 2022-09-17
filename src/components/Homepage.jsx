@@ -32,7 +32,7 @@ const Homepage = () => {
   const globalStats = data?.data?.stats;
   // console.log("🚀 ~ file: Homepage.jsx ~ line 33 ~ Homepage ~ data");
   // console.log(data);
-  if (isFetching) return console.log("DATA NOT FOUND");
+  if (isFetching) return "Loading... Please Wait";
   else
     return (
       <>
