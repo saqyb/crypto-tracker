@@ -1,6 +1,9 @@
 /* Global Stat bar  */
 .globalStatContainerBG {
-  padding-top: 10px;
+  /* padding-top: 5px; */
+  /* border: 1px solid red; */
+  padding: 2px;
+  margin: 0;
   z-index: 100;
   background-color: #293143;
   position: fixed;
@@ -8,23 +11,31 @@
 }
 
 .globalStatContainer {
+  padding: 0;
+  /* margin: 0; */
   width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
 .globalStat {
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: space-around;
 }
 
 .globalStat-title {
-  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
 }
 
 .globalStat-value {
-  font-size: 14px;
-  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
   color: rgb(88, 180, 255);
 }
 
@@ -32,7 +43,8 @@
 
 .navbar {
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
+  margin-top: 4px;
   top: 40px;
   z-index: 100;
   left: 0;

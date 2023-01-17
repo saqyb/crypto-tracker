@@ -24,21 +24,21 @@ const GlobalStat = () => {
               </p>
             </div>
             <div className='globalStat'>
-              <p className='globalStat-title'>Market Cap: </p>
+              <p className='globalStat-title'>Market Cap: $</p>
               <p className='globalStat-value'>
-                $ {millify(globalStats.totalMarketCap)}
+                {millify(globalStats.totalMarketCap)}
               </p>
             </div>
             <div className='globalStat'>
-              <p className='globalStat-title'>24h Vol: </p>
+              <p className='globalStat-title'>24h Vol: $</p>
               <p className='globalStat-value'>
-                $ {millify(globalStats.total24hVolume)}
+                {millify(globalStats.total24hVolume)}
               </p>
             </div>
             <div className='globalStat'>
-              <p className='globalStat-title'>Market: </p>
+              <p className='globalStat-title'>Market: $</p>
               <p className='globalStat-value'>
-                $ {millify(globalStats.totalMarkets)}
+                {millify(globalStats.totalMarkets)}
               </p>
             </div>
           </div>

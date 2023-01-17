@@ -85,11 +85,11 @@ a:hover {
   }
 
   .nav-container {
-    height: 8vh;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    background-color: #fff;
+    /* height: 8vh; */
+    /* position: fixed; */
+    /* width: 100%; */
+    /* z-index: 100; */
+    /* background-color: #fff; */
   }
 
   .menu-control-container {

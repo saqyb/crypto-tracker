@@ -32,7 +32,6 @@ const Navbar = () => {
           <Typography.Title level={4} className='logo'>
             <Link to='/'>CryptoTracker</Link>
           </Typography.Title>
-          {/* <Button className="menu-control-container"></Button> */}
         </div>
         <div className='navbar-links'>
           <Link to={"/"}>Home</Link>

@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
 import "./App.css";
 import "./custom.css";
+import Marquee from "react-fast-marquee";
 import {
   Navbar,
   Homepage,
@@ -35,7 +36,20 @@ function App() {
   return (
     <>
       <div className='app'>
-        <GlobalStat />
+        <Marquee
+          pauseOnHover={true}
+          style={{
+            position: "fixed",
+            padding: "0",
+            margin: "0",
+            "z-index": "100",
+          }}
+          gradient={false}
+          speed={50}
+        >
+          <GlobalStat />
+          &c;
+        </Marquee>
         <div className='navbar'>
           <Navbar></Navbar>
         </div>
