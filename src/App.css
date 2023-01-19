@@ -25,7 +25,7 @@ a:hover {
 }
 
 .main {
-  margin-top: 100px;
+  margin-top: 0px;
   /* flex: 0.8; */
   width: 100%;
 }
@@ -79,7 +79,7 @@ a:hover {
 
   .main {
     flex: 1;
-    margin-top: 90px;
+    margin-top: 0px;
     margin-left: 0px;
     margin-right: 10px;
   }
@@ -322,7 +322,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 5px;
 }
 .show-more {
   margin-top: 0px !important;
@@ -358,4 +358,8 @@ a:hover {
   flex-direction: column;
   padding: 20px;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }

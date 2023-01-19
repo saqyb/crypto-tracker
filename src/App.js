@@ -54,12 +54,23 @@ function App() {
           <Navbar></Navbar>
         </div>
         <div className='main'>
-          {/* <Layout> */}
           <div className='routes'>
             <AppRoutes />
           </div>
-          {/* </Layout> */}
-          <div className='footer'>
+          <footer className='shadow bottom-0 left-0 z-10 p-2 flex justify-center items-center w-full fixed'>
+            <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
+              Coded by{" "}
+              <a
+                target={"blank"}
+                className='text-gray-500'
+                href='https://github.com/saqyb'
+              >
+                Saqib
+              </a>
+              {/* &#10085; &#10084; &hearts; ❤️️ */}
+            </span>
+          </footer>
+          {/* <div className='footer'>
             <Typography.Title
               level={5}
               style={{ color: "#0D1015", textAlign: "center" }}
@@ -72,7 +83,7 @@ function App() {
               <Link to='/exchanges'>Exchanges</Link>
               <Link to='/news'>News</Link>
             </Space>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -26,6 +26,18 @@ const News = ({ simplified }) => {
       <>
         {!simplified && (
           <Col span={24}>
+            <Title
+              level={2}
+              className='news-title'
+              style={{
+                display: "flex",
+                "justify-content": "left",
+                "align-items": "left",
+                color: "white",
+              }}
+            >
+              News of: {newsCategory}
+            </Title>
             <Select
               showSearch
               className='select-news'
@@ -41,17 +53,6 @@ const News = ({ simplified }) => {
                 <Option value={currency.name}>{currency.name}</Option>
               ))}
             </Select>
-            <Title
-              level={2}
-              className='news-title'
-              style={{
-                display: "flex",
-                "justify-content": "center",
-                "align-items": "center",
-              }}
-            >
-              News of: {newsCategory}
-            </Title>
           </Col>
         )}
 

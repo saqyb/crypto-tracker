@@ -36,7 +36,6 @@ const Navbar = () => {
         <div className='navbar-links'>
           <Link to={"/"}>Home</Link>
           <Link to={"/cryptocurrencies"}>Cryptocurrencies</Link>
-          <Link to={"/exchanges"}>Exchanges</Link>
           <Link to={"/news"}>News</Link>
         </div>
 
